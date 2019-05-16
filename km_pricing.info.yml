@@ -1,0 +1,6 @@
+name: KM Pricing Module
+description: Handles price calculations for KM.
+package: Custom
+type: module
+version: 0.1
+core: 8.x

@@ -3,12 +3,12 @@
  * @file
  * Contains \Drupal\hello_world\Controller\HelloController.
  */
-namespace Drupal\hello_world\Controller;
-class HelloController {
+namespace Drupal\km_pricing\Controller;
+class KmPricingController {
   public function content() {
     return array(
       '#type' => 'markup',
-      '#markup' => t('Hello, World!'),
+      '#markup' => t('Hier komen de instellingen voor de prijsberekening!'),
     );
   }
 }

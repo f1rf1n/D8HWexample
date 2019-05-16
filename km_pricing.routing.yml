@@ -1,0 +1,7 @@
+km_pricing.content:
+  path: '/km_pricing'
+  defaults:
+    _controller: '\Drupal\km_pricing\Controller\KmPricingController::content'
+    _title: 'Prijsberekening'
+  requirements:
+    _permission: 'access content'
